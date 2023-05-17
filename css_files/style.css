@@ -1115,6 +1115,17 @@ textarea {
   transition: 0.3s all ease-in-out;
 }
 
+.our-product-box3 img{
+  width: 102%;
+  padding-top: 4.7rem;
+  margin-bottom: 3rem;
+}
+
+.our-product-box1 img{
+  width:95%;
+  
+}
+
 .our-product-box:hover img {
   transform: scale(1.5);
 }
@@ -1438,6 +1449,65 @@ textarea {
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#259AE1", endColorstr="#1298EB", GradientType=1 );
 }
+
+/* ----country--- */
+
+.footer-country-address{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem ;
+  color: white;
+}
+
+.footer-box-country {
+  width: 28%;
+  
+  
+}
+
+.footer-box-country img{
+  width: 20%;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 1.3rem;
+  
+  
+}
+.footer-box2-country img{
+ width:25%;
+}
+
+.footer-box-country h3{
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+.footer-box-country p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  
+}
+.a-link-country{
+  text-align: center;
+}
+
+.a-link-country a{
+  text-decoration: none;
+  color:white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.footer-box-country.p a:hover{
+  color: blue;
+  
+  
+}
+
 
 .footer-box-wrap {
   display: flex;
