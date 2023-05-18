@@ -1452,6 +1452,18 @@ textarea {
 
 /* ----country--- */
 
+
+
+section.background-world-map{
+  /* background-color: rgb(226, 225, 225); */
+  background-image: url("/images/world-map-3.png");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+  background-repeat:no-repeat;
+}
+
 .footer-country-address{
   display: flex;
   justify-content: space-around;
@@ -1481,6 +1493,7 @@ textarea {
 .footer-box-country h3{
   text-align: center;
   font-size: 1.5rem;
+  color:#000;
   
 }
 
@@ -1488,6 +1501,7 @@ textarea {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1.5rem;
+  color: #000;
   
 }
 .a-link-country{
@@ -1496,17 +1510,19 @@ textarea {
 
 .a-link-country a{
   text-decoration: none;
-  color:white;
+  color:black;
   font-size: 1.5rem;
   text-align: center;
 }
 
 
-.footer-box-country.p a:hover{
+.footer-box-country a:hover{
   color: blue;
   
   
 }
+
+/* -----------------------------footer----------main------------------------ */
 
 
 .footer-box-wrap {
@@ -1626,7 +1642,7 @@ textarea {
 
 /* ---footer-box-3----- */
 
-footer-box3 {
+.footer-box3 {
   margin-top: 2rem;
   width: auto;
 }
@@ -1750,13 +1766,13 @@ a.sociali-footer:focus {
   margin: 0em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  background-color: #1b1b1b;
+  background-color: #c5c3c3;
 }
 
 .copyrights {
-  color: #7f7f7f;
+  color: black;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* _________________________________________Resposnive____________________________________________ */
