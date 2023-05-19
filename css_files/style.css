@@ -1102,6 +1102,7 @@ textarea {
   /* width: 110%; */
   padding: 1.2em;
   padding-top: 2em;
+  position: relative;
   /* border-radius: 10%; */
   /* box-shadow: 3px 6px 25px -6px rgb(0 0 0 / 50%);
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
@@ -1163,6 +1164,44 @@ textarea {
 .our-product-box a:hover {
   background-color: rgb(7, 80, 139);
   /* transform: scale(1.4); */
+}
+
+.availabe{
+  background-color: #259ae1;
+  color:white;
+  /* width: 60%; */
+  width:fit-content;
+  text-align: center;
+  padding:0.1rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  top:15%;
+  left:-5%;
+  transform: rotate(-45deg);
+
+  /* margin-top: -15rem; */
+  
+  font-size: 1.7rem;
+  position:absolute;
+}
+
+.availabe-mri-page{
+  background-color: #259ae1;
+  color:white;
+  /* width: 60%; */
+  width:fit-content;
+  text-align: center;
+  padding:0.1rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  top:8%;
+  left:6.5%;
+  transform: rotate(-45deg);
+
+  /* margin-top: -15rem; */
+  
+  font-size: 1.7rem;
+  position:absolute;
 }
 
 /* ----------------All Products--------------------------------- */
@@ -1467,6 +1506,7 @@ section.background-world-map{
 .footer-country-address{
   display: flex;
   justify-content: space-around;
+  flex-wrap:wrap;
   padding-top: 3rem ;
   color: white;
 }
@@ -2041,9 +2081,9 @@ a.sociali-footer:focus {
     color: white;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 3.2rem;
+    line-height: 2.3rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2053,9 +2093,9 @@ a.sociali-footer:focus {
     color: white;
     margin-top: 1.7em;
     margin-bottom: 1em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 1.5rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2601,6 +2641,20 @@ a.sociali-footer:focus {
   }
 }
 
+.footer-country-address{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding-top: 3rem ;
+  color: white;
+}
+.footer-box-country {
+  width: 100%;
+  margin-top: 1rem;
+  
+  
+}
 /* ------customers-testimonials--------------------------------------------------- */
 
 @media only screen and (max-width: 991px) {
