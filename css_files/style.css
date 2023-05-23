@@ -792,11 +792,12 @@ div#popupContact img#close {
 } */
 div#popupContact {
   position: absolute;
-  left: 25%;
+  left: 10%;
   top: 17%;
   margin-left: 0;
   font-family: "Poppins", sans-serif;
   z-index: 8;
+  
 }
 div#popupContact form {
   max-width: 100vh;
@@ -1340,10 +1341,12 @@ textarea {
   content: "+";
 }
 
-.counter-box span {
+.counter-box p {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* -----------------Our-process---------------- */
@@ -1930,20 +1933,21 @@ a.sociali-footer:focus {
     margin-left: 2rem;
     margin-right: 2rem;
     font-family: "Poppins", sans-serif;
-    z-index: 4;
+    z-index: 14;
   }
 
   .form {
     margin-right: 5rem;
   }
   div#popupContact form {
-    max-width: 20%;
-    /* min-width: 30%; */
-    padding: 10px 5px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px 50px;
     border: 2px solid gray;
     border-radius: 10px;
     font-family: poppins;
     background-color: #fff;
+    
   }
 }
 
@@ -2082,9 +2086,9 @@ a.sociali-footer:focus {
     color: white;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2092,11 +2096,11 @@ a.sociali-footer:focus {
   .hero-description {
     color: white;
     color: white;
-    margin-top: 1.7em;
+    margin-top: 1.4em;
     margin-bottom: 1em;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2168,9 +2172,9 @@ a.sociali-footer:focus {
     min-width: 50vh; */
   }
   div#popupContact form {
-    max-width: 30vw;
-    /* min-width: 50vh; */
-    padding: 10px 5px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px 50px;
     border: 2px solid gray;
     border-radius: 10px;
     font-family: poppins;
@@ -2309,7 +2313,7 @@ a.sociali-footer:focus {
   /* ----counters------ */
 
   .counters {
-    height: 10vh;
+    height: auto;
     background-color: #259ae1;
     margin-top: 1rem;
   }
@@ -2317,6 +2321,8 @@ a.sociali-footer:focus {
   .counters-wrap {
     display: flex;
     justify-content: space-around;
+    
+    padding-bottom: 3rem;
   }
 
   .counter-box {
@@ -2336,7 +2342,7 @@ a.sociali-footer:focus {
     content: "+";
   }
 
-  .counter-box span {
+  .counter-box p {
     text-align: center;
     font-size: 1.3rem;
     font-weight: 600;
@@ -2509,10 +2515,19 @@ a.sociali-footer:focus {
 
   /* -------counters--------- */
   .counters {
-    height: 13vh;
+    height: auto;
     background-color: #259ae1;
     margin-top: 1rem;
   }
+  .counters h2 {
+    font-size: 2.4rem;
+  }
+  .counter-box p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
 }
 
 /* ----------------for 350------------------------------hero--- */
@@ -2739,7 +2754,7 @@ a.sociali-footer:focus {
     margin-bottom: 0.3em;
     font-size: 3rem;
     font-weight: 600;
-    line-height: 3.2rem;
+    line-height: 3.3rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2749,9 +2764,9 @@ a.sociali-footer:focus {
     color: white;
     margin-top: 1.7em;
     margin-bottom: 1em;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 3.2rem;
     max-width: 100%;
     width: 100%;
     min-width: 100%;
@@ -2804,8 +2819,8 @@ a.sociali-footer:focus {
     z-index: 4;
   }
   div#popupContact form {
-    max-width: 40%;
-    /* min-width: 80vh; */
+    max-width: 100%;
+    min-width: 100%;
     padding: 10px 60px;
     border: 2px solid gray;
     border-radius: 10px;
@@ -2978,14 +2993,16 @@ a.sociali-footer:focus {
   /* ----counters------ */
 
   .counters {
-    height: 13vh;
+    height: auto;
     background-color: #259ae1;
+    text-align: center;
     margin-top: 1rem;
   }
 
   .counters-wrap {
     display: flex;
     justify-content: space-around;
+    text-align: center;
   }
 
   .counter-box {
@@ -2996,7 +3013,7 @@ a.sociali-footer:focus {
   .counter-box h2 {
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     align-self: center;
   }
@@ -3005,10 +3022,11 @@ a.sociali-footer:focus {
     content: "+";
   }
 
-  .counter-box span {
+  .counter-box p {
     text-align: center;
     font-size: 1.3rem;
     font-weight: 600;
+    text-align: center;
   }
 
   /* --------our----process--- */
@@ -3152,8 +3170,8 @@ a.sociali-footer:focus {
     z-index: 4;
   }
   div#popupContact form {
-    max-width: 60vh;
-    /* min-width: 60vh; */
+    max-width: 100%;
+    min-width: 100%;
     padding: 10px 5px;
     border: 2px solid gray;
     border-radius: 10px;
@@ -3211,8 +3229,8 @@ a.sociali-footer:focus {
     z-index: 4;
   }
   div#popupContact form {
-    max-width: 100vh;
-    /* min-width: 100vh; */
+    max-width: 95vh;
+    min-width: 95vh;
     padding: 10px 2px;
     border: 2px solid gray;
     border-radius: 10px;
