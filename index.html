@@ -100,7 +100,7 @@
             <span class="line line1"></span>
             <span class="line line2"></span>
             <span class="line line3"></span>
-            <span class="hamburger-lines-menu">Menu</span>
+            <span style="font-size: 1.25rem; text-align: center;" class="hamburger-lines-menu">Menu</span>
           </div>
   
           <ul class="menu-items">
@@ -257,6 +257,33 @@
        </div>
       </section>
     </section>
+
+
+    <!-- -------------floating download brochure------- -->
+    <div class="floating-brochure">
+       <button class="button-modal open-button"> 
+        <i class="fa fa-file-pdf-o"></i>
+        <p class>Download Brochure</p>
+      </button>
+
+          <dialog class="modal" id="modal">
+            <p>Fill Up The Form <br> To Download Our Brochure </p>
+            <button class="button-modal-close close-button">
+              <i class="fa fa-close" style="font-size:48px;color:red"></i> Close</button>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSe_biYDKz7FI69XzVT_FoH-hzNvksu5mgYlPg5n9VKVgj62xQ/viewform?embedded=true"
+              width="700"
+              height="800"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              >Loading…</iframe
+            >
+            
+          </dialog>
+
+    </div>
+
 
    <!-- -----------floating widget------------>
 
@@ -995,6 +1022,6 @@
 <!-- <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script> -->
 
    <!-- ---------- main js file-------------------- -->
-  <script src="./js_files/main.js"></script>
+  <script src="/js_files/main.js"></script>
   
 </html>

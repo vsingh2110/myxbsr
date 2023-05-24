@@ -101,6 +101,105 @@ html {
   color: #fff;
   background: #259ae1;
 }
+
+/* -----floating brochure  download------ */
+
+.floating-brochure{
+  top: 50%; 
+  z-index: 12;
+  position: fixed;
+  /* background-color: #259ae1; */
+  width: 7rem;
+  height: 7rem;
+  margin-left: 1.5rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+dialog::backdrop {
+  background-color: #6da054;
+  opacity: 20%;
+}
+
+
+.button-modal{
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6rem;
+  text-align: center;
+  align-self: center;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #259ae1;
+  border-radius: 10%;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+
+}
+.button-modal i {
+ position: absolute;
+ font-size: 3.5rem;
+ left: 1rem;
+
+
+}
+
+
+
+.button-modal:hover {
+  background-color: #136da5 ;
+}
+
+.button-modal a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+}
+
+.modal{
+  
+  top: 5%;
+  left:20%;
+  height: 95vh;
+  
+}
+
+.modal p{
+  font-size: 3rem;
+}
+
+.button-modal-close{
+  display: block;
+  position: absolute;
+  width: auto;
+  height: auto;
+  /* z-index: -1; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-self: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  left:91%;
+  top:1%;
+
+}
+
+
+
+
 /* ----floating-call----- */
 .floating-call {
   top: 80%;
@@ -109,7 +208,7 @@ html {
   background-color: #259ae1;
   width: 7rem;
   height: 7rem;
-  margin-left: 3rem;
+  margin-left: 1.5rem;
   border-radius: 5rem;
   text-align: center;
   font-size: 3.5rem;
@@ -2029,7 +2128,7 @@ a.sociali-footer:focus {
   .topbar-content a {
     color: white;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 0rem;
     text-decoration: none;
     padding-left: 1.2rem;
@@ -2386,7 +2485,7 @@ a.sociali-footer:focus {
   .navbar-conainter .hamburger-lines-menu {
     text-align: center;
     display: block;
-    font-size: 4em;
+    font-size: 4rem;
   }
   /* ------customers-testimonials--- */
 
@@ -2553,7 +2652,7 @@ a.sociali-footer:focus {
   .navbar-conainter .hamburger-lines-menu {
     text-align: center;
     display: block;
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   .navbar-container {
@@ -2590,7 +2689,9 @@ a.sociali-footer:focus {
 
   .navbar-container .hamburger-lines .line {
     display: block;
-    height: 4px;
+    height: 2px;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
     width: 100%;
     border-radius: 10px;
     background: #333333;
@@ -2622,6 +2723,7 @@ a.sociali-footer:focus {
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
+    line-height: 0rem;
   }
 
   .menu-items li {
