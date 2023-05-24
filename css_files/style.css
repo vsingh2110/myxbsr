@@ -168,10 +168,17 @@ dialog::backdrop {
 
 .modal{
   
+  display: none;
   top: 5%;
   left:20%;
   height: 95vh;
   
+}
+
+
+.modal iframe{
+  width:"700"; 
+  height:"400";
 }
 
 .modal p{
@@ -2284,6 +2291,44 @@ a.sociali-footer:focus {
     width: 10%;
   }
 
+  .modal{
+    top: 5%;
+    left:;
+    height: 95vh;
+    width: 100%;
+  }
+
+  .modal p{
+    font-size: 1rem;
+  }
+
+
+  .modal iframe{
+    width:"400"; 
+   height:"900";
+  }
+  
+
+  .button-modal-close{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* z-index: -1; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    left:91%;
+    top:1%;
+  
+  }
+
+
   /* ------about---- */
   .about-us {
     height: auto;
@@ -2941,6 +2986,33 @@ a.sociali-footer:focus {
     right: -12rem;
   }
 
+
+  .modal{
+    top: 5%;
+    left:20%;
+    height: 95vh;
+    width: 50%;
+  }
+
+  .button-modal-close{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* z-index: -1; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    left:91%;
+    top:1%;
+  
+  }
+
   /* ------------------------ */
   /* div#popupContact {
     position: absolute;
@@ -3292,6 +3364,32 @@ a.sociali-footer:focus {
 
   .hero {
     height: 83vh;
+  }
+
+  .modal{
+    top: 5%;
+    left:20%;
+    height: 95vh;
+    width: 50%;
+  }
+
+  .button-modal-close{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* z-index: -1; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    left:91%;
+    top:1%;
+  
   }
 
   .hero-box a {
