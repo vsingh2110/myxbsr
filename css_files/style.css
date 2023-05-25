@@ -168,7 +168,7 @@ dialog::backdrop {
 
 .modal{
   
-  display: none;
+  
   top: 5%;
   left:20%;
   height: 95vh;
@@ -1926,6 +1926,7 @@ a.sociali-footer:focus {
 }
 
 /* _________________________________________Resposnive____________________________________________ */
+/* -----------------for1000px----------------- */
 @media only screen and (max-width: 1000px) {
   .hero-section {
     display: flex;
@@ -2026,10 +2027,12 @@ a.sociali-footer:focus {
     animation-duration: 11s;
   }
 
+
+
   /* --------------animation end---------------------- */
 }
 
-/* -----------pop-up----form- 380px--- or 400px------ */
+/* -----------pop-up----form- for380px--- or for400px------ */
 @media (max-width: 400px) {
   div#popupContact {
     position: absolute;
@@ -2058,7 +2061,7 @@ a.sociali-footer:focus {
 }
 
 /* --------------header------------------------- */
-/* -----------------------------------for-500px------------------- */
+/* -----------------------------------for500px------------------- */
 @media (max-width: 500px) {
   html {
     font-size: 50%;
@@ -2290,22 +2293,23 @@ a.sociali-footer:focus {
   div#popupContact img#close {
     width: 10%;
   }
-
+/* -------------------modal pop---up---- */
   .modal{
     top: 5%;
-    left:;
+    left:9%;
     height: 95vh;
     width: 100%;
   }
 
   .modal p{
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
 
   .modal iframe{
-    width:"400"; 
-   height:"900";
+
+    width:300px; 
+   height:900px;
   }
   
 
@@ -2320,12 +2324,16 @@ a.sociali-footer:focus {
     text-align: center;
     align-self: center;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     cursor: pointer;
-    left:91%;
-    top:1%;
+    left:85%;
+    top:0%;
   
+  }
+
+  .button-modal-close i {
+     font-size: 2.2rem;
   }
 
 
@@ -2621,7 +2629,7 @@ a.sociali-footer:focus {
     padding-right: 2.4rem;
   }
 }
-/* ----------------for--380px------------------ */
+/* ----------------for380px------------------ */
 @media (max-width: 380px) {
   .hero {
     height: 45vh;
@@ -2674,7 +2682,7 @@ a.sociali-footer:focus {
 
 }
 
-/* ----------------for 350------------------------------hero--- */
+/* ----------------for350px------------------------------hero--- */
 @media (max-width: 365px) {
   .hero {
     height: 45vh;
@@ -2682,7 +2690,7 @@ a.sociali-footer:focus {
   }
 }
 
-/* ----------hamburger-menu---------------------------------------------768px-- */
+/* ----------hamburger-menu---------------------------------------------for768px-- */
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
@@ -2805,14 +2813,14 @@ a.sociali-footer:focus {
 }
 
 
-/* ------customers-testimonials--------------------------------------------------- */
+/* ------customers-testimonials--for1000px------------------------------------------------- */
 
 @media only screen and (max-width: 991px) {
   .owl-nav {
     display: inline-block;
   }
 }
-
+/* -------customer testimonial--for767px----- */
 @media only screen and (max-width: 767px) {
   .box-area {
     text-align: center;
@@ -2846,7 +2854,7 @@ a.sociali-footer:focus {
     
   }
 }
-/* -------------------------------------between---501 and 768------------------------ */
+/* -------------------------------------between---for501 and for768------------------------ */
 @media only screen and (max-width: 768px) and (min-width: 501px) {
   /* -----------hero--section------ */
 
@@ -2986,13 +2994,25 @@ a.sociali-footer:focus {
     right: -12rem;
   }
 
-
+/* ------modal popup------ */
   .modal{
     top: 5%;
-    left:20%;
+    left:9%;
     height: 95vh;
-    width: 50%;
+    width: 100%;
   }
+
+  .modal p{
+    font-size: 2rem;
+  }
+
+
+  .modal iframe{
+
+    width:450px; 
+   height:900px;
+  }
+  
 
   .button-modal-close{
     display: block;
@@ -3005,12 +3025,16 @@ a.sociali-footer:focus {
     text-align: center;
     align-self: center;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     border: none;
     cursor: pointer;
-    left:91%;
-    top:1%;
+    left:85%;
+    top:0%;
   
+  }
+
+  .button-modal-close i {
+     font-size: 2.2rem;
   }
 
   /* ------------------------ */
@@ -3332,7 +3356,7 @@ a.sociali-footer:focus {
   /* ---------------------- */
 }
 
-/* ----------------------------------------for popup 501 and 601------------------------ */
+/* ----------------------------------------for popup for501 and for768------------------------ */
 @media only screen and (max-width: 768px) and (min-width: 501px) {
   /* ---form---popup------ */
   div#popupContact {
@@ -3358,7 +3382,7 @@ a.sociali-footer:focus {
     right: 7rem;
   }
 }
-/* ----------------------------------------------------between 768 and 1000----------------------- */
+/* ----------------------------------------------------between for768 and for1000----------------------- */
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
   /* -----hero---- */
 
@@ -3440,6 +3464,50 @@ a.sociali-footer:focus {
 
   div#popupContact img#close {
     width: 10%;
+  }
+
+
+  /* -----modal----- */
+  .modal{
+    top: 5%;
+    left:5%;
+    height: 95vh;
+    width: 100%;
+  }
+
+  .modal p{
+    font-size: 2rem;
+  }
+
+
+  .modal iframe{
+
+    width:650px; 
+   height:900px;
+  }
+  
+
+  .button-modal-close{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* z-index: -1; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    left:85%;
+    top:0%;
+  
+  }
+
+  .button-modal-close i {
+     font-size: 4rem;
   }
 
   /* ---about----- */
@@ -3631,4 +3699,52 @@ a.sociali-footer:focus {
   .footer-social li {
     width: 5rem;
   }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+
+
+  /* ---modal--window---- */
+  .modal{
+    top: 5%;
+    left:22%;
+    height: 95vh;
+    width: 55%;
+  }
+
+  .modal p{
+    font-size: 2rem;
+  }
+
+
+  .modal iframe{
+
+    width:700px; 
+   height:500px;
+  }
+  
+
+  .button-modal-close{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* z-index: -1; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    left:90%;
+    top:0%;
+  
+  }
+
+  .button-modal-close i {
+     font-size: 4rem;
+  }
+
 }

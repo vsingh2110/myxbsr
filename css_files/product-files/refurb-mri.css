@@ -115,30 +115,7 @@ html {
 }
 
 
-.button-modal{
-  display: block;
-  width: 40%;
-  height: 8%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  padding: 0em;
-  text-align: center;
-  align-self: center;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  padding-top: 0.75rem;
-  background-color:#259ae1 ;
-  border-radius: 10%;
-}
 
-
-.button-modal a {
-  text-decoration: none;
-  font-weight: 600;
-  color: white;
-  margin: auto;
-}
 
 /* --------------------------------responsivenes--------------------------- */
 
