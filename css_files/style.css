@@ -105,8 +105,9 @@ html {
 /* -----floating brochure  download------ */
 
 .floating-brochure{
-  top: 50%; 
-  z-index: 12;
+  top: 20%; 
+  right: 0.9%;
+  z-index: 5;
   position: fixed;
   /* background-color: #259ae1; */
   width: 7rem;
@@ -118,6 +119,7 @@ html {
   color: white;
 }
 
+
 dialog::backdrop {
   background-color: #6da054;
   opacity: 20%;
@@ -125,19 +127,21 @@ dialog::backdrop {
 
 
 .button-modal{
-  display: inline-block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
   width: auto;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 6rem;
+  /* padding: 2rem; */
   text-align: center;
   align-self: center;
   font-size: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  background-color: #259ae1;
+  padding: 1rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  background-color: #59913d;
   border-radius: 10%;
   color: white;
   border: none;
@@ -146,17 +150,22 @@ dialog::backdrop {
 
 }
 .button-modal i {
- position: absolute;
+ /* position: absolute; */
  font-size: 3.5rem;
- left: 1rem;
+ margin: auto;
+ /* left: 1rem; */
 
 
+}
+
+.button-modal p {
+  font-size: 1.5rem;
 }
 
 
 
 .button-modal:hover {
-  background-color: #136da5 ;
+  background-color: #255a0a ;
 }
 
 .button-modal a {
@@ -210,17 +219,22 @@ dialog::backdrop {
 /* ----floating-call----- */
 .floating-call {
   top: 80%;
-  z-index: 12;
+  z-index: 5;
   position: fixed;
-  background-color: #259ae1;
+  background-color: #59913d;
   width: 7rem;
   height: 7rem;
-  margin-left: 1.5rem;
+  margin-left: 0.1rem;
   border-radius: 5rem;
   text-align: center;
   font-size: 3.5rem;
   color: white;
 }
+
+.floating-call:hover{
+  background-color: #1e4909;
+}
+
 .floating-call i {
   text-decoration: none;
   color: white;
@@ -231,17 +245,21 @@ dialog::backdrop {
 }
 
 .floating-call-timing {
-  top: 82%;
-  z-index: 12;
+  top: 82.5%;
+  z-index: 5;
   position: fixed;
-  background-color: #259ae1;
+  background-color: #59913d;
   width: 12rem;
   height: 4rem;
-  margin-left: 10rem;
+  margin-left: 7.5rem;
   /* border-radius: 5rem; */
   text-align: center;
   font-size: 1.2rem;
   color: white;
+}
+
+.floating-call-timing:hover{
+  background-color: #1e4909;
 }
 .floating-call-timing p {
   margin-top: 0.4rem;
@@ -2293,6 +2311,83 @@ a.sociali-footer:focus {
   div#popupContact img#close {
     width: 10%;
   }
+/* ----------------floating-brochure----------------- */
+
+.floating-brochure{
+  top: 25%; 
+  right: -0.5%;
+  z-index: 5;
+  position: fixed;
+  /* background-color: #259ae1; */
+  width: 7rem;
+  height: 7rem;
+  /* margin-left: 1rem; */
+  border-radius: 5rem;
+  text-align: center;
+  /* font-size: 3.5rem; */
+  color: white;
+}
+
+
+dialog::backdrop {
+  background-color: #6da054;
+  opacity: 20%;
+}
+
+
+.button-modal{
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 2rem; */
+  text-align: center;
+  align-self: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  background-color: #59913d;
+  border-radius: 10%;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+
+}
+.button-modal i {
+ /* position: absolute; */
+ font-size: 2rem;
+ margin: auto;
+ /* left: 1rem; */
+
+
+}
+
+.button-modal p {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+
+
+.button-modal:hover {
+  background-color: #255a0a ;
+}
+
+.button-modal a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+}
+
+
+
+
 /* -------------------modal pop---up---- */
   .modal{
     top: 5%;
@@ -2336,6 +2431,58 @@ a.sociali-footer:focus {
      font-size: 2.2rem;
   }
 
+
+/* ----floating-call--------- */
+.floating-call {
+  top: 80%;
+  z-index: 5;
+  position: fixed;
+  background-color: #59913d;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.1rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+/* .floating-call a {
+  position: relative;
+} */
+
+.floating-call i {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: -1rem;
+  
+}
+
+/* .fa-phone-square {
+  margin-bottom: 2rem;
+} */
+
+.floating-call-timing {
+  top: 80.5%;
+  z-index: 5;
+  position: fixed;
+  background-color: #59913d;
+  width: 12rem;
+  height: 3.5rem;
+  margin-left: 4rem;
+  /* border-radius: 5rem; */
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+.floating-call-timing p {
+  margin-top: 0.1rem;
+  font-size: 1rem;
+
+}
 
   /* ------about---- */
   .about-us {
