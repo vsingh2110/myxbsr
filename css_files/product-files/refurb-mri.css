@@ -55,6 +55,8 @@ html {
   object-fit: cover;
 }
 
+
+
 .refurb-1-5t-mri {
   text-align: center;
   font-weight: 500;
@@ -86,6 +88,7 @@ html {
   width: 30%;
   text-align: center;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .refurb-mri-main-box h3 {
@@ -98,24 +101,19 @@ html {
 .refurb-mri-main-box a {
   display: block;
   width: 40%;
-  height: 8%;
+  height: 6%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
-  padding: 0em;
+  margin-top: 1em;
   text-align: center;
   align-self: center;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
-  padding-top: 0.75rem;
+  padding: 0.2em;
 }
 
 .refurb-mri-main-box a:hover {
   background-color: rgb(7, 80, 139);
 }
-
-
-
 
 /* --------------------------------responsivenes--------------------------- */
 
@@ -128,5 +126,18 @@ html {
   }
   .refurb-mri-main-box {
     width: 80%;
+  }
+
+  .refurb-mri-main-box a {
+    display: block;
+    width: 40%;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 0.2em;
   }
 }
