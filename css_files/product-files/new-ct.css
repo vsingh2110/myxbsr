@@ -27,6 +27,10 @@ html {
   scroll-behavior: smooth;
 }
 /* -------------------------------------body------------------------- */
+
+
+
+
 .new-ct-page {
   margin-top: 0;
 }
@@ -67,6 +71,9 @@ html {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.new-ct-main-imgbox{
+  position: relative;
 }
 
 .new-ct-main-box h3 {
