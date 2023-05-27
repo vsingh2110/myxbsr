@@ -151,7 +151,8 @@ submitButton.addEventListener("click", (e) => {
 
   if (
     document.getElementById("name").value == "" ||
-    document.getElementById("phone").value == ""
+    document.getElementById("phone").value == ""||
+    document.getElementById("country").value == ""
     // || document.getElementById("msg").value == ""
   ) {
     alert("Fill All Fields !");
@@ -171,6 +172,7 @@ submitButton.addEventListener("click", (e) => {
     let Phone = document.getElementById("phone").value;
     let Email = document.getElementById("email").value;
     let Enquiry = document.getElementById("enquiry").value;
+    let Country = document.getElementById("country").value;
     let sayDateValStamp = sayDateVal;
 
     firestore
@@ -194,6 +196,7 @@ submitButton.addEventListener("click", (e) => {
         name: Name,
         phone: Phone,
         email: Email,
+        country:Country,
         enquiry: Enquiry,
         sayDateVal: sayDateValStamp
       })
