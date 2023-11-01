@@ -1,4 +1,4 @@
-  =>  Template Name    : Tea House - Tea Shop Website Template
+  =>  Template Name    : Phantom test website
 
   =>  Template Link    : https://htmlcodex.com/tea-shop-website-template
 
